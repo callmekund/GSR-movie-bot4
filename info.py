@@ -62,8 +62,8 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '')
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gauravbanna5555:gauravbanna5555@cluster0.7dsjxra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "gauravbanna5555")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://gaurav:gaurav@gaurav.7pjoig5.mongodb.net/?retryWrites=true&w=majority&appName=gaurav")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0 gaurav")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Gaurav_files')
 
 # ============================
