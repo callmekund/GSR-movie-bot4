@@ -271,7 +271,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/+S6Y7YEL5qMc51FHw">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/call_me_kund>[Gaurav_Banna]</a></b>"""
+    CAPTION = """<b><blockquote><a href="https://t.me/+S6Y7YEL5qMc51FHw">{file_name}</a></blockquote></b>\n\n<b><blockquote>⚜️ Powered By : <a href="https://t.me/call_me_kund">[Gaurav Banna]</a></blockquote></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
