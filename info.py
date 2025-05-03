@@ -28,12 +28,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://telegra.ph/file/9a457d828298081d4df68-ada8fa56d80d39e38b.jpg https://telegra.ph/file/002b1045a979a136af01f-8c4412ead0ac109a6e.jpg https://telegra.ph/file/f809923aaa6e3fff917bb-04f0fd24a0e4f69707.jpg https://telegra.ph/file/d255dd3f9447411e021af-109fe76e017d0134dc.jpg https://telegra.ph/file/db21c189b69ca6f9ee378-cd25245fc6927645d2.jpg https://telegra.ph/file/0b2c1e44a3a159d0148ab-bf7e78fb196746a195.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/b86265add627933f9d14b-782933e57468bf6337.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://telegra.ph/file/1e3c53e9d214fce38250a-1607fa05ade7c54953.jpg https://telegra.ph/file/d2412313cb9e091e7c2f5-386f3a3f4194df473d.jpg')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
