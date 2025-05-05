@@ -25,7 +25,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # ============================
 # Bot Settings Configuration
 # ============================
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
+CACHE_TIME = int(environ.get('CACHE_TIME', 120))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/9a457d828298081d4df68-ada8fa56d80d39e38b.jpg https://telegra.ph/file/002b1045a979a136af01f-8c4412ead0ac109a6e.jpg https://telegra.ph/file/f809923aaa6e3fff917bb-04f0fd24a0e4f69707.jpg https://telegra.ph/file/d255dd3f9447411e021af-109fe76e017d0134dc.jpg https://telegra.ph/file/db21c189b69ca6f9ee378-cd25245fc6927645d2.jpg https://telegra.ph/file/0b2c1e44a3a159d0148ab-bf7e78fb196746a195.jpg')).split()  # Sample pic
@@ -119,7 +119,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
-DELETE_TIME = int(environ.get("DELETE_TIME", "300"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
+DELETE_TIME = int(environ.get("DELETE_TIME", "120"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False) # pm & Group button or link mode (True) / Off (False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
